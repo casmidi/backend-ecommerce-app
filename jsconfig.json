@@ -1,8 +1,22 @@
 {
   "compilerOptions": {
-    "moduleResolution": "nodenext",
-    "target": "ES2021",
-    "checkJs": true,
-    "allowJs": true
-  }
+    "target": "es6",
+    "module": "NodeNext", // Sesuaikan module dengan NodeNext
+    "moduleResolution": "NodeNext", // Sesuaikan moduleResolution dengan NodeNext
+    "baseUrl": "./",
+    "paths": {
+      "*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*.js"],
+  "exclude": ["node_modules"]
 }
+
+// {
+//   "compilerOptions": {
+//     "moduleResolution": "nodenext",
+//     "target": "ES2021",
+//     "checkJs": true,
+//     "allowJs": true
+//   }
+// }
